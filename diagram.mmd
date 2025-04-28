@@ -1,0 +1,14 @@
+flowchart TD
+    A([Start]) --> B[Initialize PDFSummaryGrader]
+    B --> C[Open PDF with pdfplumber]
+    E -- No --> F[Append extracted text]
+    C --> E[Pages contain images?]
+    E -- Yes --> G[Convert page to image & OCR]
+    G --> H[Append OCR text or error]
+    H --> J
+    F --> J[Combine all page texts]
+    J --> K[Send text and summary to Gemini model]
+    Z[Generated Summary] --> K
+    K --> L[Grade summary & collect scores]
+    L --> M[Compute weighted average score]
+    M --> N([End])
