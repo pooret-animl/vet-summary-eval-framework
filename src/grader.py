@@ -203,8 +203,8 @@ class PDFSummaryGrader:
             Do not use any external knowledge.
 
             Critically evaluate the summary based on the following criteria: Factual Accuracy, Completeness, Chronological Order, Clinical Relevance, and Organization.
-            Provide a score from 1 (Poor) to 5 (Excellent) and specific, constructive feedback for each criterion based *only* on the provided texts. Avoid any position biases and do not allow the length of the responses to influence your score. 
-            Also provide detailed overall feedback
+            Provide a score from 1 (Poor) to 5 (Excellent) and specific, constructive feedback for each criterion based *only* on the provided texts. Do not allow the length of the responses to influence your score. 
+            Provide detailed overall feedback.
 
              **Follow these steps:**
 
@@ -414,7 +414,7 @@ class PDFSummaryGrader:
             **Task:** Compare Summary A and Summary B based on the following criteria:
             1.  **Factual Accuracy:** Which summary more accurately reflects facts (dates, diagnoses, treatments, results) from the source? Note specific examples of accuracy or inaccuracy in each.
             2.  **Completeness:** Which summary includes more of the key medical events, diagnoses, treatments, and significant findings from the source? Note significant omissions in each.
-            3.  **Conciseness:** Which summary conveys the necessary information more efficiently without excessive length? (Consider length relative to completeness).
+            3.  **Chronological Order Analysis:** Trace the sequence of events presented in the summary and compare it to the timeline indicated in the source text. Note if the order is correct or incorrect.
             4.  **Clinical Relevance:** Which summary better focuses on the most medically important information appropriate for a referral or history, avoiding trivial details?
             5.  **Organization & Clarity:** Which summary is better structured, easier to read, and flows more logically?
 
