@@ -75,7 +75,7 @@ The following table and chart detail the average scores for each of the five eva
 | Clinical Relevance    | 3.50      | 4.04             | 4.81          |
 | Organization          | 4.46      | 4.67             | 4.98          |
 
-![Average Scores by Evaluation Criteria](./figures/average_metrics_bar_plot.png)
+![Average Scores by Evaluation Criteria](./slides/figures/average_metrics_bar_plot.png)
 *Figure 1: Average scores for each evaluation criterion by summarizer type. (Please update path if needed)*
 
 ### Textual and Linguistic Analysis
@@ -90,17 +90,17 @@ Analysis of the text properties of the summaries revealed differences in length 
 | Readability Grade     | ~12.3     | ~14.4            | ~12.3         |
 | Flesch Reading Ease   | ~30.9     | ~25.5            | ~26.8         |
 
-![Readability vs. Score](./figures/readability_vs_score.png)
+![Readability vs. Score](./slides/figures/readability_vs_score.png)
 *Figure 2: Relationship between summary readability metrics and overall scores. (Please update path if needed)*
 
-![Common Words by Creator](./figures/common_words_by_creator.png)
+![Common Words by Creator](./slides/figures/common_words_by_creator.png)
 *Figure 3: Most common words used by each summarizer type. (Please update path if needed)*
 
 ### Correlation Between Evaluation Metrics
 
 A correlation heatmap shows the relationships between the different evaluation criteria.
 
-![Correlation Heatmap of Evaluation Metrics](./figures/correlation_heatmap.png)
+![Correlation Heatmap of Evaluation Metrics](./slides/figures/correlation_heatmap.png)
 *Figure 4: Correlation heatmap of the five evaluation criteria. (Please update path if needed)*
 
 ### DVM vs. LLM Ratings of Summaries
@@ -110,7 +110,7 @@ A comparison was made between how practicing veterinarians (DVMs) rated a subset
 * Pearson correlation between DVM and LLM ratings: 0.5030 (p=0.0008).
 * Discrepancies highlight that LLMs may miss crucial context or misinterpret complex/disjointed records at times, though there is a positive correlation in ratings.
 
-![Clinician vs. LLM Grades](./figures/clinician_vs_llm_grades_95_CI.png)
+![Clinician vs. LLM Grades](./slides/figures/clinician_vs_llm_grades_95_CI.png)
 *Figure 5: Comparison of summary ratings by Clinicians (DVMs) and the LLM evaluator, with 95% Confidence Intervals. (Please update path if needed)*
 
 ### Overall Takeaways
