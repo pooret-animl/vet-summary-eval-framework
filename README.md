@@ -101,6 +101,8 @@ Analysis of the text properties of the summaries revealed differences in length 
 A correlation heatmap shows the relationships between the different evaluation criteria.
 
 ![Correlation Heatmap of Evaluation Metrics](./slides/figures/correlation_heatmap.png)
+
+
 *Figure 4: Correlation heatmap of the five evaluation criteria. 
 
 ### DVM vs. LLM Ratings of Summaries
