@@ -76,7 +76,7 @@ The following table and chart detail the average scores for each of the five eva
 | Organization          | 4.46      | 4.67             | 4.98          |
 
 ![Average Scores by Evaluation Criteria](./slides/figures/average_metrics_bar_plot.png)
-*Figure 1: Average scores for each evaluation criterion by summarizer type. (Please update path if needed)*
+*Figure 1: Average scores for each evaluation criterion by summarizer type.
 
 ### Textual and Linguistic Analysis
 
@@ -91,17 +91,17 @@ Analysis of the text properties of the summaries revealed differences in length 
 | Flesch Reading Ease   | ~30.9     | ~25.5            | ~26.8         |
 
 ![Readability vs. Score](./slides/figures/readability_vs_score.png)
-*Figure 2: Relationship between summary readability metrics and overall scores. (Please update path if needed)*
+*Figure 2: Relationship between summary readability metrics and overall scores. 
 
 ![Common Words by Creator](./slides/figures/common_words_by_creator.png)
-*Figure 3: Most common words used by each summarizer type. (Please update path if needed)*
+*Figure 3: Most common words used by each summarizer type. 
 
 ### Correlation Between Evaluation Metrics
 
 A correlation heatmap shows the relationships between the different evaluation criteria.
 
 ![Correlation Heatmap of Evaluation Metrics](./slides/figures/correlation_heatmap.png)
-*Figure 4: Correlation heatmap of the five evaluation criteria. (Please update path if needed)*
+*Figure 4: Correlation heatmap of the five evaluation criteria. 
 
 ### DVM vs. LLM Ratings of Summaries
 
@@ -111,7 +111,7 @@ A comparison was made between how practicing veterinarians (DVMs) rated a subset
 * Discrepancies highlight that LLMs may miss crucial context or misinterpret complex/disjointed records at times, though there is a positive correlation in ratings.
 
 ![Clinician vs. LLM Grades](./slides/figures/clinician_vs_llm_grades_95_CI.png)
-*Figure 5: Comparison of summary ratings by Clinicians (DVMs) and the LLM evaluator, with 95% Confidence Intervals. (Please update path if needed)*
+*Figure 5: Comparison of summary ratings by Clinicians (DVMs) and the LLM evaluator, with 95% Confidence Intervals. 
 
 ### Overall Takeaways
 
