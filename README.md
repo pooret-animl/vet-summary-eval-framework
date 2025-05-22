@@ -36,8 +36,8 @@ Summaries were scored on a 1-5 scale for each criterion. The evaluation was perf
 * **Dataset:** 41 clinical veterinary records, ranging from 10 to 261 pages, primarily oncology cases with some internal medicine cases included.
 * **Summarizers Compared:**
     * Practicing Veterinarians ("Clinician")
-    * "Hachiko (v1.4)" (Custom summarization framework, results from `hachiko-v1.4.json` analysis)
-    * "Hachiko 2.0" (Advanced summarization system, results from `hachiko-gemini-2.5-summaries_concise.json` analysis)
+    * "Hachiko (v1.4)" (Custom summarization framework)
+    * "Hachiko 2.0" (Advanced summarization system)
     * Other AI Models (benchmarked using the framework, scores in Appendix of slide deck):
         * `gpt-4o`
         * `claude-3-5-sonnet-20240620`
